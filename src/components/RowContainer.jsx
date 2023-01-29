@@ -49,9 +49,7 @@ const RowContainer = ({ flag, data, scrollValue }) => {
                 whileHover={{ scale: 1.2 }}
               >
                 <img
-                  src={
-                    "https://firebasestorage.googleapis.com/v0/b/farming-project-63377.appspot.com/o/Images%2F1674974476874-chef1.png?alt=media&token=b7039ee0-2f83-422f-bc5f-2abe9bd88f91"
-                  }
+                  src={item?.imageURL}
                   alt=""
                   className="w-full h-full object-contain"
                 />
